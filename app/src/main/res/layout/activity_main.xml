@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Numbers"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_height="0dp"
+        android:id="@+id/numbers1"
+        android:background="@android:color/holo_red_light"
+        android:textSize="25sp"
+android:onClick="Numberslist"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:id="@+id/numbers2"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:gravity="center"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="openfamily"
+        android:text="Family Members"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+    <TextView
+        android:text="Colors"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/numbers3"
+        android:onClick="opencolors"
+        android:background="@android:color/holo_orange_dark"
+        android:textStyle="italic"
+        style="@style/AppTheme"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:text="Phrases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:id="@+id/numbers4"
+        android:layout_weight="1"
+        android:onClick="openphrases"
+        android:background="@android:color/holo_purple"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        style="@style/AppTheme"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
